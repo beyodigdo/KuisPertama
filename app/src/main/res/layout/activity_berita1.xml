@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".berita1">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="318dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="23dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="35dp"
+        android:text="Ratna Sarumpaet berbohong , Ratu HOAX !"
+        android:textColor="@android:color/black"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="321dp"
+        android:layout_height="171dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginEnd="34dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/ratnasarumpaet" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="329dp"
+        android:layout_height="192dp"
+        android:layout_marginBottom="48dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="10dp"
+        android:text="Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine Wes ewes bablas angine "
+        android:textColor="@android:color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2" />
+</android.support.constraint.ConstraintLayout>
